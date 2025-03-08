@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "dev": "deno run --watch src/main.ts",
+    "start": "deno run src/main.ts",
+    "test": "deno test"
+  },
+  "imports": {}
+}
