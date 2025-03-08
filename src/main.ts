@@ -1,3 +1,9 @@
-console.log("Hello from Deno!");
+import { UniqueEntityId } from "./core/entities/unique-entity-id.ts";
 
-// Your code goes here
+function main() {
+  const test = new UniqueEntityId();
+
+  return test;
+}
+
+console.log(main());
